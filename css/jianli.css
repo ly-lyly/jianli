@@ -43,10 +43,15 @@ ul li {
 
 .info-options .info-key {
   width: 90px;
+  text-align: right;
 }
 
 .info-options .info-value {
   padding-left: 15px;
+}
+
+.jober-info {
+  margin: 10px;
 }
 
 .cell {
@@ -104,8 +109,27 @@ ul li {
   line-height: 30px;
 }
 
+.work-experience-item .work-experience-skills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.work-experience-skills .work-skills-item {
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #EEEE;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 10px;
+}
+
 .work-experience-duties {
   display: flex;
+  align-items: baseline;
 }
 
 .work-experience-duties ul {
@@ -113,12 +137,10 @@ ul li {
 }
 
 .work-experience-duties ul li {
-  height: 30px;
   line-height: 30px;
 }
 
 .project-item span {
-  flex: 1;
   line-height: 2em;
 }
 
